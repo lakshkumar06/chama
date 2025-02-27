@@ -1,1 +1,82 @@
 @import "tailwindcss";
+
+
+@theme{
+    --font-orbitron: "Orbitron", sans-serif;
+    --font-funnel: "Funnel Display", sans-serif;
+
+}
+
+.lightGrayBg{
+    background-color: rgba(86, 101, 126, 0.25);	
+}
+.lightGrayBg2{
+    background-color: rgba(64, 76, 98, 0.5);	
+
+}
+.flexCol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+.slidingBg, .slidingBg svg path, .slidingBg p{
+    transition: all .25s ease-in;
+
+
+}
+.slidingBg:hover {        
+    background-position: 0 0;
+    color:white;
+}
+.slidingBg:hover svg path, .slidingBg:hover p{
+    fill: white;
+    color: #fff;
+}
+  .top-slide-blue{
+    background-image: linear-gradient(to top,
+                                      transparent,
+                                      transparent 50%,
+                                      #5278f5 50%,
+                                      #123093);
+                   background-position: 0 100%;
+    background-size: 100% 200%;
+
+  }
+
+
+.bottom-slide-green{
+    background-image: linear-gradient(to top,
+    transparent,
+    transparent 50%,
+    #0b8b08 50%,
+    #1cb819);
+    background-position: 0 -100%;
+    background-size: 100% 200%;
+}
+.top-slide-purple{
+    background-image: linear-gradient(to top,
+                                      transparent,
+                                      transparent 50%,
+                                      #720ff3 50%,
+                                      #400ff3);
+                   background-position: 0 100%;
+    background-size: 100% 200%;
+
+  }
+
+
+.bottom-slide-orange{
+    background-image: linear-gradient(to top,
+    transparent,
+    transparent 50%,
+    #f5a40d 50%,
+    #f8de6b);
+    background-position: 0 -100%;
+    background-size: 100% 200%;
+}
