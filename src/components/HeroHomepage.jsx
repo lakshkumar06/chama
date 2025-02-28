@@ -42,9 +42,9 @@ const Earth = () => {
 export default function Hero() {
   return (
         <div className="bg-black">
-         <div className="relative w-full h-[120vh] overflow-hidden">
+         <div className="relative w-full h-[110vh] overflow-hidden">
             <div className="absolute inset-0 ">
-              <div className="relative flex h-full w-full justify-end right-[-30vw] top-[20vh]">
+              <div className="relative flex h-full w-full justify-end right-[-30vw] top-[10vh]">
               <Canvas className=" w-screen ">
               <ambientLight intensity={4} />
               <directionalLight position={[5, 3, 5]} intensity={2} />
@@ -55,7 +55,7 @@ export default function Hero() {
             </div>
             </div>
     
-          <div className="relative w-[90%] mx-auto py-[20vh] font-funnel">
+          <div className="relative w-[90%] mx-auto py-[10vh] font-funnel">
               <h1 className="text-white font-bold font-orbitron text-[64px] leading-[1.2em]">Decentralized Savings & <br/>Lending for Millions </h1>
               <p className="text-blue-500 font-funnel text-[32px]">Transparent. Trustless. Global.</p>
 

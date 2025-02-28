@@ -8,10 +8,10 @@
 }
 
 .lightGrayBg{
-    background-color: rgba(86, 101, 126, 0.25);	
+    background-color: rgba(47, 55, 68, 0.25);	
 }
 .lightGrayBg2{
-    background-color: rgba(64, 76, 98, 0.5);	
+    background-color: rgba(40, 48, 61, 0.5);	
 
 }
 .flexCol{
@@ -80,3 +80,4 @@
     background-position: 0 -100%;
     background-size: 100% 200%;
 }
+
